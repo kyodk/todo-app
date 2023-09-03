@@ -19,7 +19,7 @@ export function createMarkups(items) {
   const markups = [];
   items.forEach((item) => {
     const markup = `
-      <li class="list-unstyled mb-3 ${item.completed ? 'is-done' : ''}" id="${item.id}">
+      <li class="mb-3 ${item.completed ? 'is-done' : ''}" id="${item.id}">
         <div class="row align-items-center">
           <div class="col-2 col-md-1">
             <input type="checkbox" id="box-${item.id}" ${item.completed ? 'checked' : ''}>
