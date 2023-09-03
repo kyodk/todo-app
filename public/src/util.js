@@ -28,7 +28,7 @@ export function createMarkups(items) {
           <div class="col-8 col-md-10">
             <span class="todo-title" contenteditable="true"> ${htmlEscape(item.title)}</span>
           </div>
-          <div class="col-2 col-md-1 text-right">
+          <div class="col-2 col-md-1 text-end">
             <button type="button">
               <span class="delete"></span>
             </button>
